@@ -1,0 +1,140 @@
+.footer {
+    padding: 60px 0;
+    background-color: #2f303a;
+
+    &__container {
+      display: flex;
+    }
+    &__contact {
+      display: flex;
+      flex-direction: column;
+      width: 231px;
+    
+      margin-right: 70px;
+    }
+  }
+  
+  .logo-footer {
+    display: flex;
+    align-items: flex-end;
+    height: 31px;
+  
+    margin-bottom: 20px;
+  }
+  
+  .footer-address {
+    &__item:not(:last-child) {
+      margin-bottom: 9px;
+    }
+    &__link {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.71;
+      letter-spacing: 0.03em;
+  
+      &:hover,
+      &:focus {
+        outline: none;
+        color: var(--accent-color);
+      }
+    }
+      
+    &__link_address {
+      color: #ffffff;
+    }
+    &__link_contact {
+      color: rgba(255, 255, 255, 0.6);
+    }
+  }
+  
+  .footter-social {
+    display: flex;
+    flex-direction: column;
+    margin-right: 94px;
+
+    &__title {
+      display: flex;
+      align-items: flex-end;
+      height: 31px;
+    
+      margin-bottom: 20px;
+    
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+    
+      color: #ffffff;
+    }
+  }
+    
+  .footer-email-form-title {
+    display: flex;
+    align-items: flex-end;
+    height: 31px;
+  
+    margin-bottom: 20px;
+  
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  
+    color: #ffffff;
+  }
+  
+  .footer-email-form {
+    display: flex;
+
+    &__input {
+      width: 358px;
+      height: 50px;
+      margin-right: 12px;
+      padding: 15px 16px;
+    
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+      border-radius: 4px;
+    
+      background-color: transparent;
+      color: #ffffff;
+  
+      &::placeholder {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.6);
+      }
+    }
+    
+    &__button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+      width: 200px;
+      height: 50px;
+    
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.87;
+      letter-spacing: 0.06em;
+    
+      color: #ffffff;
+      background: var(--accent-color);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+      border-radius: 4px;
+      border: none;
+    
+      cursor: pointer;
+    }
+  }
+
+  .send-icon {
+    fill: #ffffff;
+    margin-left: 10px;
+  }
