@@ -1,4 +1,9 @@
 .services {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .services {
+    display: block;
     padding-top: 0px;
     padding-bottom: 94px;
 
@@ -41,3 +46,4 @@
       text-transform: uppercase;
     }
   }
+}
