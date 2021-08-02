@@ -1,30 +1,23 @@
+//MOBILE
 .footer {
-    padding: 60px 0;
-    background-color: #2f303a;
-
-    &__container {
-      display: flex;
-    }
-    &__contact {
-      display: flex;
-      flex-direction: column;
-      width: 231px;
-    
-      margin-right: 70px;
-    }
-  }
-  
+  padding: 60px 0;
+  background-color: #2f303a;
+}
+//address
   .logo-footer {
     display: flex;
+    justify-content: center;
     align-items: flex-end;
-    height: 31px;
   
     margin-bottom: 20px;
   }
-  
+
   .footer-address {
+    text-align: center;
+    margin-bottom: 60px;
+
     &__item:not(:last-child) {
-      margin-bottom: 9px;
+      margin-bottom: 8px;
     }
     &__link {
       font-style: normal;
@@ -47,16 +40,12 @@
       color: rgba(255, 255, 255, 0.6);
     }
   }
-  
-  .footter-social {
-    display: flex;
-    flex-direction: column;
-    margin-right: 94px;
 
+//social
+  .footter-social {
+    margin-bottom: 60px;
     &__title {
-      display: flex;
-      align-items: flex-end;
-      height: 31px;
+      text-align: center;
     
       margin-bottom: 20px;
     
@@ -69,11 +58,10 @@
       color: #ffffff;
     }
   }
-    
+
+  //email-form
   .footer-email-form-title {
-    display: flex;
-    align-items: flex-end;
-    height: 31px;
+    text-align: center;
   
     margin-bottom: 20px;
   
@@ -87,12 +75,10 @@
   }
   
   .footer-email-form {
-    display: flex;
-
     &__input {
-      width: 358px;
+      width: 100%;
       height: 50px;
-      margin-right: 12px;
+      margin-bottom: 20px;
       padding: 15px 16px;
     
       border: 1px solid rgba(255, 255, 255, 0.3);
@@ -111,6 +97,7 @@
     }
     
     &__button {
+      margin: 0 auto;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -138,3 +125,59 @@
     fill: #ffffff;
     margin-left: 10px;
   }
+
+// TABLET
+@media screen and (min-width: 768px) {
+  .footer{
+    &__tablet-container {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+  
+  .footer-email-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__input {
+      width: 450px;
+    }
+  }
+}
+
+// DESKTOP
+@media screen and (min-width: 1200px) {
+  .footer{
+    &__container {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__contact {
+      margin-right: 70px;
+    }
+  }
+
+  .footer-address {
+    text-align: left;
+    margin-bottom: 0px;
+  }
+
+  .footter-social {
+    margin-bottom: 0;
+    &__title {
+      text-align: left;
+    }
+  }
+
+  .footer-email-form {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    &__input {
+      width: 358px;
+      margin-right: 12px;
+    }
+   }
+}
