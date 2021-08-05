@@ -21,8 +21,8 @@
 
   <body>
     <!--header-->
-    <!-- <header class="header">
-      <div class="container header-container">
+    <header class="header">
+      <div class="header-container container">
         <nav class="main-navigation">
           <a class="logo logo__header link" href="./"
             ><span class="logo_color-one">Web</span
@@ -41,6 +41,11 @@
             </li>
           </ul>
         </nav>
+        <button class="burger-button" type="button" data-menu-open>
+          <svg class="burger-button__icon" width="24px" height="16px">
+            <use href="./images/icons.svg#burger-menu"></use>
+          </svg>
+        </button>
         <ul class="header-contact list">
           <li class="header-contact__item">
             <a
@@ -63,7 +68,80 @@
           </li>
         </ul>
       </div>
-    </header> -->
+      <div class="mobile-menu" data-menu>
+        <div class="mobile-menu__container container">
+          <button class="mobile-menu__close-button" type="button" data-menu-close>
+            <svg class="mobile-menu__close-icon" width="18px" height="18px">
+              <use href="./images/icons.svg#close-button"></use>
+            </svg>
+          </button>
+          <nav class="mobile-menu__navigation">
+            <ul class="mobile-menu__list list">
+              <li class="mobile-menu__item">
+                <a class="mobile-menu__link link" href="./">Студия</a>
+              </li>
+              <li class="mobile-menu__item">
+                <a class="mobile-menu__link link" href="./portfolio.html">Портфолио</a>
+              </li>
+              <li class="mobile-menu__item">
+                <a class="mobile-menu__link link" href="">Контакты</a>
+              </li>
+            </ul>
+                    <ul class="header-contact list">
+          <li class="header-contact__item">
+            <a
+              class="header-contact__link link"
+              href="mailto:info@devstudio.com"
+            >
+              <svg class="contact-icon" width="16px" height="12px">
+                <use href="./images/icons.svg#mail"></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+          <li class="header-contact__item">
+            <a class="header-contact__link link" href="tel:+380961111111">
+              <svg class="contact-icon" width="10px" height="16px">
+                <use href="./images/icons.svg#smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+          </nav>
+
+          <div class="mobile-menu__contact">
+            <ul class="mobile-menu__contact-list list">
+              <li class="mobile-menu__contact-item">
+                <a class="mobile-menu__phone-link link" href="tel:+380961111111">
+                  +38 096 111 11 11</a>
+              </li>
+              <li class="mobile-menu__contact-item">
+                <a
+                  class="mobile-menu__email-link link"
+                  href="mailto:info@devstudio.com"
+                >info@devstudio.com</a>
+              </li>
+            </ul>
+  
+            <div class="mobile-menu__social">
+              <ul class="mobile-menu__social-list list">
+                <li class="mobile-menu__social-item">
+                  <a class="mobile-menu__social-link link" href="">Instagram</a></li>
+                <li class="mobile-menu__social-item">
+                  <a class="mobile-menu__social-link link" href="">Twitter</a></li>
+                <li class="mobile-menu__social-item">
+                  <a class="mobile-menu__social-link link" href="">Facebook</a>
+                </li>
+                <li class="mobile-menu__social-item">
+                  <a class="mobile-menu__social-link link" href="">LinkedIn</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
 
     <main>
       <!--hero-->
@@ -721,5 +799,6 @@
     </div>
     <!--script-->
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
