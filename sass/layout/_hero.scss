@@ -44,7 +44,7 @@
   .hero {
     background-image:
     linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
-    url(../../images/tablet/hero/hero-bg-tablet.jpg);
+    url(../images/tablet/hero/hero-bg-tablet.jpg);
   }
 }
 
@@ -54,7 +54,7 @@
   .hero {
     background-image:
     linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
-    url(../../images/tablet/hero/hero-bg-tablet@2x.jpg);
+    url(../images/tablet/hero/hero-bg-tablet@2x.jpg);
   }
 }
 
@@ -63,7 +63,7 @@
   .hero {
     background-image:
     linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
-    url(../../images/desktop/hero/hero-bg.jpg);
+    url(../images/desktop/hero/hero-bg.jpg);
 
     &__title {
       max-width: 696px;
@@ -79,6 +79,6 @@
   .hero {
     background-image:
     linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
-    url(../../images/desktop/hero/hero-bg@2x.jpg);
+    url(../images/desktop/hero/hero-bg@2x.jpg);
   }
 }
