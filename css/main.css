@@ -672,7 +672,7 @@ body {
   padding: 118px 0;
   text-align: center;
   margin: 0 auto;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/mobile/hero/hero-bg-mobile.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/mobile/hero/hero-bg-mobile.jpg);
   background-size: cover;
   background-color: #2f303a;
 }
@@ -694,7 +694,7 @@ body {
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 280px), (min-resolution: 192dpi) and (min-width: 280px), (min-resolution: 2dppx) and (min-width: 280px) {
   .hero {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/mobile/hero/hero-bg-mobile@2x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/mobile/hero/hero-bg-mobile@2x.jpg);
   }
 }
 
@@ -1253,28 +1253,6 @@ body {
   }
   .portfolio-item {
     flex-basis: calc((100% - 90px) / 3);
-  }
-  .portfolio-item-frame {
-    padding: 20px 24px;
-    background: #ffffff;
-    border: 1px solid #eeeeee;
-    border-top: none;
-  }
-  .portfolio-item-name {
-    margin-bottom: 4px;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-    color: var(--second-color);
-  }
-  .portfolio-item-description {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.03em;
-    color: #757575;
-    /*end gallery*/
   }
 }
 /*# sourceMappingURL=main.css.map */
