@@ -1,12 +1,12 @@
-
   .modal {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   
-    width: 528px;
-    height: 581px;
+    width: 450px;
+    height: 609px;
+
     padding: 40px;
   
     background: #ffffff;
@@ -27,8 +27,8 @@
       cursor: pointer;
       padding: 0;
   
-     &:hover .close-button-icon,
-     &:focus .close-button-icon {
+      &:hover .close-button-icon,
+      &:focus .close-button-icon {
         fill: var(--accent-color);
       }
     }
@@ -137,8 +137,8 @@
       display: flex;
       align-items: center;
       font-weight: normal;
-      font-size: 14px;
-      line-height: 1.71;
+      font-size: 12px;
+      line-height: 1.16;
       letter-spacing: 0.03em;
     
       color: #757575;
@@ -152,8 +152,8 @@
         width: 15px;
         height: 15px;
       
-        margin-right: 7px;
-        margin-left: 12px;
+        margin-right: 9px;
+        // margin-left: 12px;
       
         border: 1px solid var(--second-color);
         border-radius: 2px;
@@ -163,8 +163,8 @@
     
     &__checkbox-link {
       font-weight: 400;
-      font-size: 14px;
-      line-height: 1.71;
+      font-size: 12px;
+      line-height: 1.16;
       letter-spacing: 0.03em;
       text-decoration-line: underline;
     
@@ -189,5 +189,32 @@
       border: none;
     
       cursor: pointer;
+    }
+  }
+
+  @media screen and (max-width:479px){
+    .modal {
+      width: 100%;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .modal {
+        
+    width: 528px;
+    height: 581px;
+    padding: 40px;
+    }
+    .modal-form {
+      &__checkbox-label {
+        justify-content: center;
+        font-size: 14px;
+        line-height: 1.71;
+      }
+
+      &__checkbox-link {
+        font-size: 14px;
+        line-height: 1.71;
+      }
     }
   }
