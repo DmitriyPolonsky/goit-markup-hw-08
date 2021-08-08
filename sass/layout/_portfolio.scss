@@ -85,6 +85,12 @@
       transform: translateY(0%);
     }
   }
+
+  .portfolio-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
     
   .portfolio-item {
     margin-top: 30px;
