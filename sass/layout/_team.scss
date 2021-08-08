@@ -71,6 +71,8 @@
 // DESKTOP
 @media screen and (min-width: 1200px) {
   .team {
+    padding-top: 94px;
+    padding-bottom: 94px;
     &__item {
       flex-basis: calc((100% - 120px) / 4);
     }

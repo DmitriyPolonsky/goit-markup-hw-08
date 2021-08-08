@@ -712,6 +712,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   .hero {
+    padding: 200px 0;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/desktop/hero/hero-bg.jpg);
   }
   .hero__title {
@@ -899,6 +900,10 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
+  .team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
   .team__item {
     flex-basis: calc((100% - 120px) / 4);
   }
@@ -946,6 +951,10 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
+  .clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
   .clients__item {
     flex-basis: calc((100% - 150px) / 6);
   }
